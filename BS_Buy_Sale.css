@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+table {
+    background-color: darkslategray;
+    width: 99%;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Go_To_Account {
+    left: 50%;
+    top: 20%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgb(78, 58, 58);
+    border-radius: 10px;
+}
+input{
+    border: none;;
+    border-bottom: 2px solid #adadad;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#Get_Membership {
+    background-color:  rgb(78, 58, 58);
+    border-radius: 10px;
+    text-align: center;
+}
+
+#Coustomer_Care {
+    left: 80%;
+    top: 5%;
+    position: absolute;
+    border-radius: 5px;
+    background-color: rgba(0, 255, 255, 0.158);
+}
+
+.bs {
+    text-align: center;
+    background-color: brown;
+    border-radius: 5px;
+}
+
+.bs-marquee {
+    width: 20%;
+}
+
+.table_for_suggassions {
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-collapse: separate;
+    text-align:center;
+}
+
+summary {
+    list-style: none;
+}
